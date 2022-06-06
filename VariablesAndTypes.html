@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+ <script type="text/javascript" src="javaScriptfile.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Variables and Types</title> 
+    <style type="text/css">
+     h1{ color:#40916C;
+          text-align: center;
+          font-family: "Verdana";
+          font-size: 60pt;
+          font-style: bold;
+        }
+     h2{color: #40916C;
+     
+      font-family: "Verdana";
+      font-size: 30pt;
+      font-style:bold;
+       }
+     h3{
+        font-family:"Candara";
+        font-size:15pt;
+        }   
+    h6{text-align:center;
+          font-family:"Verdana";
+          color:gray;}
+    a{color: #40916C;}
+    .a1{color: black;
+        font-family: "Verdana";
+       font-size: 15pt;}
+     .a2{color:gray;
+      font-family: "Verdana";} 
+      h5{color: gray;
+        font-family: "Verdana";
+        font-size: 11pt;} 
+    li{font-family:"Candara";
+        font-size:15pt;
+        }
+     * {
+         box-sizing: border-box;
+       }
+     .column {
+              float: left;
+              padding: 10px;
+              height: 400px; 
+             }
+      .left {
+              width: 20%;
+            }
+     .right {
+              width: 70%;
+              text-align:left;
+            }
+     .row:after {
+                content: "";
+                display: table;
+                clear: both;
+                }
+      .third{width: 10%}   
+              h5{text-align:center;
+          font-family:"Verdana";
+          color:gray;}  
+          .f2{
+          color:#40916C;
+          text-align: left;
+          font-family: "Verdana";
+          font-size: 40pt;
+          font-style: bold;
+       }
+       .f3{
+          text-align:center;
+          font-family:"Verdana";
+          color:gray
+          font-size:8pt;
+       }     
+        button {
+         background-color: #40916C;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  margin: 4px 2px;
+  cursor: pointer}
+    </style>
+<body>
+<header>
+<table>
+<tr>
+         <td style="width:25%"><a href="HomePage.html" title="Home page">
+                         <img src="slike/logo1.png" width=200/></a></td>
+         </td> 
+        <td style="width: 57%" id="f2" class="f2"><h1>JAVA</h1></td>
+         <td><button onclick="f2()">Customise</button></td> 
+         <td id="f3" class="f3"><h6>Current Time</h6>
+         <button onmouseover="f3()">Go over me</button></td>
+      </tr>
+  </table>
+
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+<header>
+  <body BGCOLOR="fcf7ff">
+ <div class="row">
+  <div class="column left">
+          <h2 style="color:#40916C">Chapters</h2>
+                 <a class="a1" href="Intro.html">Intro</a><br/>
+                 <a class="a1"href="HelloWorld.html">Hello, World!</a><br/> 
+                 <a class="a1"href="VariablesAndTypes.html">Variables and Types</a><br/>   
+                 <a class="a1"href="Arrays.html">Arrays</a><br/>   
+</div>
+<div class="column right">
+<table bordercolor="gray" width="100%">
+ <th width=100%><h2>Chapter: Variables and Types</h2></th>
+</table>
+<h3>Although Java is object oriented, not all types are objects. It is built on top of basic variable types called primitives.</h3>
+<h3>Here is a list of all primitives in Java:</h3>
+<ul>
+       <li>byte (number, 1 byte)</li>
+       <li>short (number, 2 bytes)</li>
+       <li>int (number, 4 bytes)</li>
+       <li>long (number, 8 bytes)</li>
+       <li>float (float number, 4 bytes)</li>
+       <li>double (float number, 8 bytes)</li>
+       <li>char (a character, 2 bytes)</li>
+       <li>boolean (true or false, 1 byte)</li>
+</ul>
+<h3>Java is a strong typed language, which means variables need to be defined before we use them.</h3>
+<h2>Numbers</h2>
+<h3>To declare and assign a number use the following syntax:</h3>
+    <img src="slike/n1.png" width="100%">
+<h3>Or you can combine them:</h3>
+    <img src="slike/n2.png" width="100%">
+<h3>To define a double floating point number, use the following syntax:</h3>
+    <img src="slike/n3.png" width="100%">
+<h3>If you want to use float, you will have to cast:</h3>
+<img src="slike/n4.png" width="100%">
+<h3>Or, You can use this:<br/>
+<img src="slike/n5.png" width="100%">
+
+<h2>Characters and Strings</h2>
+<h3>In Java, a character is it's own type and it's not simply a number, so it's not common to put an ascii value in it, there is a special syntax for chars:</h3>
+<img src="slike/n6.png" width="100%"> 
+<h3>String is not a primitive. It's a real type, but Java has special treatment for String.<br/>
+Here are some ways to use a string:</h3>
+<img src="slike/n7.png" width="100%"> 
+<h3>String is the only class where operator overloading is supported in java rest There is no operator overloading in Java! We can concat two strings using + operator. The operator + is only defined for strings, you will never see it with other objects, only primitives.<br/>
+You can also concat string to primitives:</h3>
+<img src="slike/n8.png" width="100%"> 
+<h2>Boolean</h2>
+<h3>Every comparison operator in java will return the type boolean. Unlike other languages, it only accepts two special values: true or false.</h3>
+<img src="slike/n9.png" width="100%"> 
+<br/>
+<h3>Try out your code <a href="https://www.tutorialspoint.com/compile_java_online.php" target="_blank" onclick="f5()">here</a> or <a href="https://www.onlinegdb.com/online_java_compiler" target="_blank" onclick="f5()"> here</a>.</h3>
+<br/>
+<h2 align="center"><a href="Arrays.html">NEXT TUTORIAL</a></h2>  
+</p>
+<hr>
+<p align="center">
+  <h6>OUR COURSES<br/>
+    <a class="a2" href="Intro.html">Intro</a><br/>
+    <a class="a2"href="HelloWorld.html">Hello, World!</a><br/> 
+    <a class="a2"href="VariablesAndTypes.html">Variables and Types</a><br/>   
+    <a class="a2"href="Arrays.html">Arrays</a><br/>   
+<h5>If u have time pleas consider doing a short questionare. We want to make CODE better and with your feedback we can do that.</h5>
+<h5>Click <a href="Forms.html">here</a></h5>
+<hr>
+<p>
+  <h6>Code is optimized for learning and training. 
+  Examples might be simplified to improve reading and learning. 
+  Tutorials, references, and examples are constantly reviewed to avoid errors, but we can not warrant full correctness of all content. 
+  While using Learn code, you agree to have read and accepted our terms of use, cookie and privacy policy.<br/>
+  For troubles contact us on our mail:<a href="learncode@gmail.com"> learncode@gmail.com</a><br/>
+  Follow us on:</h6>
+<table align="center">
+  <tr>
+    <th><a href="https://www.instagram.com/" title="instagram"><img src="slike/i.png" width=40></a></th>
+    <th><a href="https://www.twitter.com/" title="twitter"><img src="slike/t.png" width=40></a></th>
+    <th><a href="https://www.linkedin.com/" title="linkedIn"><img src="slike/in.png" width=40></a></th>
+  </tr>
+</table>
+ <br/>
+ </p>
+</div>
+<div class="third">
+  </div>
+   </body>
+</html>
