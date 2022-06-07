@@ -8,5 +8,5 @@ One of the HTML pages depicts a forum, and the responses are handled by elements
 Bare in mind that many JavaScript features were mandatory for this class, even if they have no link to the project's concept.
 
 This project taught me the fundamentals of website development. 
-Also, how crucial planning is. 
+Especially, how crucial planning is. 
 In the future, I intend to use what I've learned from this project to design more visually appealing and responsive websites.
