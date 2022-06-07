@@ -1,178 +1,73 @@
 <!DOCTYPE html>
 <html>
- <script type="text/javascript" src="javaScriptfile.js"></script>
+<link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="javaScriptfile.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-   <title>Feedback</title> 
-    <style type="text/css">
-     h1{ color:#40916C;
-          text-align: center;
-          font-family: "Verdana";
-          font-size: 60pt;
-          font-style: bold;
-        }
-     h2{color: #40916C;
-     
-      font-family: "Verdana";
-      font-size: 30pt;
-      font-style:bold;
-       }
-       h4{color: #40916C;
-     
-      font-family: "Verdana";
-      font-size: 20pt;
-      font-style:bold;
-       }
-     h3{
-        font-family:"Candara";
-        font-size:15pt;
-        }   
-    h6{text-align:center;
-          font-family:"Verdana";
-          color:gray;}
-    a{color: #40916C;}
-    .a1{color: black;
-        font-family: "Verdana";
-       font-size: 15pt;}
-     .a2{color:gray;
-      font-family: "Verdana";} 
-      h5{color: gray;
-        font-family: "Verdana";
-        font-size: 11pt;} 
-    li{font-family:"Candara";
-        font-size:15pt;
-        }
-     * {
-         box-sizing: border-box;
-       }
-     .column {
-              float: left;
-              padding: 10px;
-              height: 400px; 
-             }
-      .left {
-              width: 20%;
-            }
-     .right {
-              width: 70%;
-              text-align:left;
-            }
-     .row:after {
-                content: "";
-                display: table;
-                clear: both;
-                }
-      .third{width: 10%}   
-      textarea {
-  width: 100%;
-  height: 150px;
-  padding: 12px 20px;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  background-color: #f8f8f8;
-  resize: none;
-} 
-input[type=submit]{
-  background-color: #40916C;
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  margin: 4px 2px;
-  cursor: pointer}
-  select {
-  width: 100%;
-  padding: 16px 20px;
-  border: none;
-  border-radius: 4px;
-  background-color: #f1f1f1;
-}
-button {
-         background-color: #40916C;
-         border: none;
-         color: white;
-         padding: 16px 32px;
-         margin: 4px 2px;
-         align-content: center;
-         cursor: pointer;}
-    </style>
-<body>
-<header>
-<table>
-<tr>
-         <td sytle="width:30%"><a href="HomePage.html" title="Home page">
-                         <img src="slike/logo1.png" width=200/></a></td>
-         </td> 
-         <td style="width:70%"><h1 align="center">FEEDBACK</h1></td>
-      </tr>
-  </table>
-
-<hr style="height:2px;border-width:0;color:gray;background-color:gray">
-<header>
-  <body BGCOLOR="fcf7ff">
- <div class="row">
-  <div class="column left">
-          <h2 style="color:#40916C">Chapters</h2>
-                 <a class="a1" href="Intro.html">Intro</a><br/>
-                 <a class="a1"href="HelloWorld.html">Hello, World!</a><br/> 
-                 <a class="a1"href="VariablesAndTypes.html">Variables and Types</a><br/>   
-                 <a class="a1"href="Arrays.html">Arrays</a><br/>  
-</div>
-<div class="column right">
-<table bordercolor="gray">
- <th width=100%><h2>Share your experience</h2><th>
-</table>
-<h4>Gender</h4>
-        <h3><input type="radio" name="gen" value="female" checked>female
-        <input type="radio" name="gen" value="male" checked>male</h3> 
-<h4>Age</h4>
-        <select name="age">
-          <h3><option value="uder 18">under 18</option>
-           <option value="18-25">18-25</option>
-           <option value="older than 25">25 and up</option></h3>
-        </select> 
-<h4>Are you currently studing programming in school?</h4>
-        <h3> <input type="checkbox" name="prg" value="uni">yes in University<br/>
-        <input type="checkbox" name="prg1" value="hs">yes i High School<br/>
-        <input type="checkbox" name="prg2" value="course">yes in course<br/>
-        <input type="checkbox" name="prg3" value="course">no<br/>
-<h4 id="f4">If you liked using our site pleas make sure to click the following button</h4>
-<button onclick="f4()">Click me if you liked this site</button>    
-<h4>Did we help you? Tell us how we can improve.</h4>
- <textarea name="comments" rows="4" cols="90" onKeyPress="alert('Thank you for giving your honest opinion.')"></textarea>
- <br/>     
- <p align="center">
-<input type="submit" valeu="submit" onclick="f1()"><br/>
-<h6 id=f1></h6>  
-</p> 
-<h2 align="center"><a href="Intro.html">BACK TO LEARNING</a></h2>
-</p>
-<hr>
-<p align="center">
-  <h6>OUR COURSES<br/>
-    <a class="a2" href="Intro.html">Intro</a><br/>
-    <a class="a2"href="HelloWorld.html">Hello, World!</a><br/> 
-    <a class="a2"href="VariablesAndTypes.html">Variables and Types</a><br/>   
-    <a class="a2"href="Arrays.html">Arrays</a><br/>    
-<hr>
-<p>
-  <h6>Code is optimized for learning and training. 
-  Examples might be simplified to improve reading and learning. 
-  Tutorials, references, and examples are constantly reviewed to avoid errors, but we can not warrant full correctness of all content. 
-  While using Learn code, you agree to have read and accepted our terms of use, cookie and privacy policy.<br/>
-  For troubles contact us on our mail:<a href="learncode@gmail.com"> learncode@gmail.com</a><br/>
-  Follow us on:</h6>
-<table align="center">
-  <tr>
-    <th><a href="https://www.instagram.com/" title="instagram"><img src="slike/i.png" width=40></a></th>
-    <th><a href="https://www.twitter.com/" title="twitter"><img src="slike/t.png" width=40></a></th>
-    <th><a href="https://www.linkedin.com/" title="linkedIn"><img src="slike/in.png" width=40></a></th>
-  </tr>
-</table>
- <br/>
- </p>
-</div>
-<div class="third">
+<title>Feedback</title> 
+<body BGCOLOR="fcf7ff">
+ <header>
+  <table>
+   <tr>
+    <td sytle="width:30%"><a href="Index.html" title="Home page">
+     <img src="slike/logo1.png" width=200/></a></td>
+   </td> 
+   <td style="width:70%"><h1 align="center">FEEDBACK</h1></td>
+   </tr>
+   </table>
+   <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+   <div class="row">
+   <div class="column left">
+    <h2 style="color:#40916C">Chapters</h2>
+    <a class="a1" href="Intro.html">Intro</a><br/>
+    <a class="a1"href="HelloWorld.html">Hello, World!</a><br/> 
+    <a class="a1"href="VariablesAndTypes.html">Variables and Types</a><br/>   
+    <a class="a1"href="Arrays.html">Arrays</a><br/>  
+   </div>
+   <div class="column right">
+   <table bordercolor="gray">
+    <th width=100%><h2>Share your experience</h2><th>
+   </table>
+   <h5>Gender</h5>
+     <h3><input type="radio" name="gen" value="female" checked>female
+     <input type="radio" name="gen" value="male" checked>male</h3> 
+   <h5>Age</h5>
+      <select name="age">
+      <h3><option value="uder 18">under 18</option><option value="18-25">18-25</option><option value="older than 25">25 and up</option></h3>
+      </select> 
+   <h5>Are you currently studing programming in school?</h5>
+   <h3><input type="checkbox" name="prg" value="uni">yes in University<br/><input type="checkbox" name="prg1" value="hs">yes i High School<br/><input type="checkbox" name="prg2" value="course">yes in course<br/><input type="checkbox" name="prg3" value="course">no<br/>
+   <h5 id="f4">If you liked using our site pleas make sure to click the following button</h5>
+   <button onclick="f4()">Click me if you liked this site</button>    
+   <h5>Did we help you? Tell us how we can improve.</h5>
+   <textarea name="comments" rows="4" cols="90" onKeyPress="alert('Thank you for giving your honest opinion.')"></textarea>
+   <br/>     
+   <p align="center">
+    <input type="submit" valeu="submit" onclick="f1()"><br/>
+    <h6 id=f1></h6>  
+   </p> 
+   <h2 align="center"><a href="Intro.html">BACK TO LEARNING</a></h2>
+   </p>
+   <hr>
+   <p align="center">
+    <h6>OUR COURSES<br/>
+     <a class="a2" href="Intro.html">Intro</a><br/>
+     <a class="a2"href="HelloWorld.html">Hello, World!</a><br/> 
+     <a class="a2"href="VariablesAndTypes.html">Variables and Types</a><br/>   
+     <a class="a2"href="Arrays.html">Arrays</a><br/>    
+    <hr>
+    <p>
+     <h6>Code is optimized for learning and training. Examples might be simplified to improve reading and learning. Tutorials, references, and examples are constantly reviewed to avoid errors, but we can not warrant full correctness of all content. While using Learn code, you agree to have read and accepted our terms of use, cookie and privacy policy.<br/>For troubles contact us on our mail:<a href="learncode@gmail.com"> learncode@gmail.com</a><br/>Follow us on:</h6>
+     <table align="center">
+     <tr>
+      <th><a href="https://www.instagram.com/" title="instagram"><img src="slike/i.png" width=40></a></th>
+      <th><a href="https://www.twitter.com/" title="twitter"><img src="slike/t.png" width=40></a></th>
+      <th><a href="https://www.linkedin.com/" title="linkedIn"><img src="slike/in.png" width=40></a></th>
+     </tr>
+    </table>
+    <br/>
+   </p>
   </div>
-   </body>
+  <div class="third">
+  </div>
+ </body>
 </html>
-

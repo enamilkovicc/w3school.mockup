@@ -1,184 +1,90 @@
 <!DOCTYPE html>
 <html>
- <script type="text/javascript" src="javaScriptfile.js"></script>
+<link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="javaScriptfile.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-   <title>Hello, World!</title> 
-    <style type="text/css">
-     h1{ color:#40916C;
-          text-align: left;
-          font-family: "Verdana";
-          font-size: 60pt;
-          font-style: bold;
-        }
-     h2{color: #40916C;
-      font-family: "Verdana";
-      font-size: 30pt;
-      font-style:bold;
-       }
-     h3{
-        font-family:"Candara";
-        font-size:15pt;
-        }   
-    h6{text-align:center;
-          font-family:"Verdana";
-          color:gray;}
-    a{color: #40916C;}
-    .a1{color: black;
-        font-family: "Verdana";
-       font-size: 15pt;}
-     .a2{color:gray;
-      font-family: "Verdana";} 
-      h5{color: gray;
-        font-family: "Verdana";
-        font-size: 11pt;} 
-    li{font-family:"Candara";
-        font-size:15pt;
-        }
-     * {
-         box-sizing: border-box;
-       }
-       .f2{
-          color:#40916C;
-          text-align: left;
-          font-family: "Verdana";
-          font-size: 40pt;
-          font-style: bold;
-       }
-       .f3{
-          text-align:center;
-          font-family:"Verdana";
-          color:gray
-          font-size:8pt;
-       }
-     .column {
-              float: left;
-              padding: 10px;
-              height: 400px; 
-             }
-      .left {
-              width: 20%;
-            }
-     .right {
-              width: 70%;
-              text-align:left;
-            }
-     .row:after {
-                content: "";
-                display: table;
-                clear: both;
-                }
-      .third{width: 10%}   
-              h5{text-align:center;
-          font-family:"Verdana";
-          color:gray;}  
-      button {
-         background-color: #40916C;
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  margin: 4px 2px;
-  cursor: pointer}
-  select {
-  width: 100%;
-  padding: 16px 20px;
-  border: none;
-  border-radius: 4px;
-  background-color: #f1f1f1;
-      } 
+<title>Hello, World!</title> 
 
-    </style>
-<body>
-<header>
-<table>
-<tr>
-         <td style="width: 25%"><a href="HomePage.html" title="Home page">
-                         <img src="slike/logo1.png" width=200/></a></td>
-         <td style="width: 57%" id="f2" class="f2"><h1>JAVA</h1></td>
-         <td><button onclick="f2()">Customise</button></td> 
-         <td id="f3" class="f3"><h6>Current Time</h6>
-         <button onmouseover="f3()">Go over me</button></td>
-           
-</tr>
+<body BGCOLOR="fcf7ff">
+ <header>
+  <table>
+   <tr>
+    <td style="width: 25%"><a href="Index.html" title="Home page">
+     <img src="slike/logo1.png" width=200/></a></td>
+    <td style="width: 57%" id="f2" class="f2"><h1>JAVA</h1></td>
+    <td><button onclick="f2()">Customise</button></td> 
+    <td id="f3" class="f3"><h6>Current Time</h6>
+    <button onmouseover="f3()">Go over me</button></td>
+   </tr>
   </table>
-
-<hr style="height:2px;border-width:0;color:gray;background-color:gray">
-<header>
-  <body BGCOLOR="fcf7ff">
+  <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+ </header>
  <div class="row">
   <div class="column left">
-          <h2 style="color:#40916C">Chapters</h2>
-                 <a class="a1" href="Intro.html">Intro</a><br/>
-                 <a class="a1"href="HelloWorld.html">Hello, World!</a><br/> 
-                 <a class="a1"href="VariablesAndTypes.html">Variables and Types</a><br/>   
-                 <a class="a1"href="Arrays.html">Arrays</a><br/>    
-</div>
-<div class="column right">
-<table bordercolor="gray">
- <th width=100%><h2>Chapter: Hello, World!</h2><th>
-</table>
-<h3>Java is an object oriented language (OOP). Java objects are part of so-called "Java classes".<br/>
-    Let's go over the Hello world program, which simply prints "Hello, World!" to the screen.<br/></h3>
-    <img src="slike/HelloWorld1.png" width="100%">
-<h3>The first line defines a class called Main<br/></h3>
-    <img src="slike/HelloWorld2.png" width="100%">
-<h3>In Java, every line of code that can actually run needs to be inside a class. This line declares a class named Main, which is public, that means that any other class can access it.<br/>
-Notice that when we declare a public class, we must declare it inside a file with the same name (Main.java), otherwise we'll get an error when compiling.<br/>
-When running the examples on the site, we will not use the public keyword, since we write all our code in one file.<br/>
-The next line is:<br/></h3>
-    <img src="slike/HelloWorld3.png" width="100%">
-<h3>This is the entry point of our Java program. the main method has to have this exact signature in order to be able to run our program.<br/></h3>
-<ul>
+    <h2 style="color:#40916C">Chapters</h2>
+    <a class="a1" href="Intro.html">Intro</a><br/>
+    <a class="a1"href="HelloWorld.html">Hello, World!</a><br/> 
+    <a class="a1"href="VariablesAndTypes.html">Variables and Types</a><br/>   
+    <a class="a1"href="Arrays.html">Arrays</a><br/>    
+  </div>
+  <div class="column right">
+  <table bordercolor="gray">
+   <th width=100%><h2>Chapter: Hello, World!</h2><th>
+  </table>
+  <h3>Java is an object oriented language (OOP). Java objects are part of so-called "Java classes".<br/>
+  Let's go over the Hello world program, which simply prints "Hello, World!" to the screen.<br/></h3>
+  <img src="slike/HelloWorld1.png" width="100%">
+  <h3>The first line defines a class called Main<br/></h3>
+  <img src="slike/HelloWorld2.png" width="100%">
+  <h3>In Java, every line of code that can actually run needs to be inside a class. This line declares a class named Main, which is public, that means that any other class can access it.<br/> Notice that when we declare a public class, we must declare it inside a file with the same name (Main.java), otherwise we'll get an error when compiling.<br/>When running the examples on the site, we will not use the public keyword, since we write all our code in one file.<br/> The next line is:<br/></h3>
+  <img src="slike/HelloWorld3.png" width="100%">
+  <h3>This is the entry point of our Java program. the main method has to have this exact signature in order to be able to run our program.<br/></h3>
+  <ul>
    <li>public again means that anyone can access it.</li>
    <li>static means that you can run this method without creating an instance of Main.</li>
    <li>void means that this method doesn't return any value.</li>
    <li>main is the name of the method.</li>
   </ul>
-<h3>The arguments we get inside the method are the arguments that we will get when running the program with parameters. It's an array of strings. We will use it in our next lesson, so don't worry if you don't understand it all now.</h3><br/>
-<img src="slike/HelloWorld4.png" width="100%">
-<ul>
+  <h3>The arguments we get inside the method are the arguments that we will get when running the program with parameters. It's an array of strings. We will use it in our next lesson, so don't worry if you don't understand it all now.</h3><br/>
+  <img src="slike/HelloWorld4.png" width="100%">
+  <ul>
    <li>sistem is a pre-defined class that Java provides us and it holds some useful methods and variables.</li>
    <li>out is a static variable within System that represents the output of your program (stdout)</li>
    <li>printlnis a method of out that can be used to print a line.</li>
   </ul>
- <br/> 
- <p align="center">
-<video width="600" align="center" controls>
-  <source src="javaVideo.mp4" type="video/mp4">
- </video> 
+  <br/> 
+  <p align="center">
+   <video width="600" align="center" controls>
+    <source src="javaVideo.mp4" type="video/mp4">
+   </video> 
  </p> 
-<br/>
-<h3>Try out your code <a href="https://www.tutorialspoint.com/compile_java_online.php" target="_blank" onclick="f5()">here</a> or <a href="https://www.onlinegdb.com/online_java_compiler" target="_blank" onclick="f5()"> here</a>.</h3>
-<br/>
-<h2 align="center"><a href="VariablesAndTypes.html">NEXT TUTORIAL</a></h2>  
-</p>
-<hr>
-<p align="center">
+ <br/>
+ <h3 align="center">Try out your code <a href="https://www.tutorialspoint.com/compile_java_online.php" target="_blank" onclick="f5()">here</a> or <a href="https://www.onlinegdb.com/online_java_compiler" target="_blank" onclick="f5()"> here</a>.</h3>
+ <br/>
+ <h2 align="center"><a href="VariablesAndTypes.html">NEXT TUTORIAL</a></h2>  
+ </p>
+ <hr>
+ <p align="center">
   <h6>OUR COURSES<br/>
     <a class="a2" href="Intro.html">Intro</a><br/>
     <a class="a2"href="HelloWorld.html">Hello, World!</a><br/> 
     <a class="a2"href="VariablesAndTypes.html">Variables and Types</a><br/>   
     <a class="a2"href="Arrays.html">Arrays</a><br/>    
-<h5>If u have time pleas consider doing a short questionare. We want to make CODE better and with your feedback we can do that</h5>
-<h5>Click <a href="Forms.html">here</a></h5>
-<hr>
-<p>
-  <h6>Code is optimized for learning and training. 
-  Examples might be simplified to improve reading and learning. 
-  Tutorials, references, and examples are constantly reviewed to avoid errors, but we can not warrant full correctness of all content. 
-  While using Learn code, you agree to have read and accepted our terms of use, cookie and privacy policy.<br/>
-  For troubles contact us on our mail:<a href="learncode@gmail.com"> learncode@gmail.com</a><br/>
-  Follow us on:</h6>
-<table align="center">
+  <h6>If u have time pleas consider doing a short questionare. We want to make CODE better and with your feedback we can do that</h6>
+  <h6>Click <a href="Forms.html">here</a></h6>
+  <hr>
+ <p>
+ <h6>Code is optimized for learning and training. Examples might be simplified to improve reading and learning. Tutorials, references, and examples are constantly reviewed to avoid errors, but we can not warrant full correctness of all content. While using Learn code, you agree to have read and accepted our terms of use, cookie and privacy policy.<br/>For troubles contact us on our mail:<a href="learncode@gmail.com"> learncode@gmail.com</a><br/>Follow us on:</h6>
+ <table align="center">
   <tr>
-    <th><a href="https://www.instagram.com/" title="instagram"><img src="slike/i.png" width=40></a></th>
-    <th><a href="https://www.twitter.com/" title="twitter"><img src="slike/t.png" width=40></a></th>
-    <th><a href="https://www.linkedin.com/" title="linkedIn"><img src="slike/in.png" width=40></a></th>
+   <th><a href="https://www.instagram.com/" title="instagram"><img src="slike/i.png" width=40></a></th>
+   <th><a href="https://www.twitter.com/" title="twitter"><img src="slike/t.png" width=40></a></th>
+   <th><a href="https://www.linkedin.com/" title="linkedIn"><img src="slike/in.png" width=40></a></th>
   </tr>
-</table>
+ </table>
  <br/>
  </p>
-</div>
-<div class="third">
-  </div>
-   </body>
+ <div class="third">
+ </div>
+ </body>
 </html>
